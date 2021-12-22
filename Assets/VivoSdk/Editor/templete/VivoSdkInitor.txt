@@ -1,0 +1,18 @@
+package com.sdk.vivo;
+
+import android.app.Application;
+
+import com.api.unityactivityinterface.IOnAppCreate;
+import com.vivo.unionsdk.open.VivoUnionSDK;
+
+public class VivoSdkInitor implements IOnAppCreate
+{
+    String appid="##APPID##";
+    boolean isDebug= ##DEBUG##;
+    boolean isLateInit=##LATE_INIT##;
+    @Override
+    public void onCreate(Application activity) {
+        if (!isLateInit)
+            VivoUnionSDK.initSdk(activity, appid, isDebug);
+    }
+}

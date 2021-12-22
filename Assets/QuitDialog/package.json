@@ -1,0 +1,11 @@
+{
+  "name": "com.interface.quitdialog",
+  "displayName": "QuitDialog",
+  "description": "ÍË³öµ¯´°½Ó¿Ú",
+  "version": "1.0.0",
+  "unity": "2018.3",
+  "license": "MIT",
+  "dependencies": {
+    "com.refinter.basic": "1.0.0"
+  }
+}

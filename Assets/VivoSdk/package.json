@@ -1,0 +1,13 @@
+{
+  "name": "com.sdk.vivo",
+  "displayName": "VivoSDK",
+  "description": "VivoÁªÔËSDK",
+  "version": "1.0.0",
+  "unity": "2018.3",
+  "license": "MIT",
+  "dependencies": {
+    "com.enred.androidhelper": "1.0.2",
+    "com.advertisingsdk.basic": "1.0.1",
+    "com.interface.quitdialog": "1.0.0"
+  }
+}
